@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.registration_container{
+    margin-top: 2rem;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.form_container{
+    border-radius: 1rem;
+    margin: auto;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_info{
+    text-align: center;
+}
+.app_info > img{
+   height: 4rem;
+  
+}
+
+form{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: aliceblue;
+}
+
+form > input{
+    background: rgb(69, 72, 69);
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+    border:0.1rem solid #997af0;
+  
+}
+
+ input:focus{
+    border:0.1rem solid #a90e82;
+    outline:none;   
+}
+
+form .btn{
+    
+  font-size: 1rem; 
+  border-radius: 4px;
+  text-transform: uppercase; 
+  background-color: #2764cd;
+  padding: .6rem;
+  border: none;
+}
+
+form .btn:hover{
+    background-color: #213c6c;
+}
+
+form > span a{
+    color: #a90e82;
+}

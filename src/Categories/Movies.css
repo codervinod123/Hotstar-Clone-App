@@ -1,0 +1,24 @@
+ .category_container
+{
+    display: flex;
+    overflow-x: auto;
+    margin: 1rem;
+   
+}
+
+
+.category_item
+{
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category_item>img{
+    height: 10rem;
+}
+.category_container>h6{
+    color: aliceblue;
+} 

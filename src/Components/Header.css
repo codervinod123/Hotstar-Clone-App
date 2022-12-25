@@ -1,0 +1,100 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    background: rgb(20, 20, 35);
+}
+
+.nav{
+    height: 70px;
+    display: flex;
+    left: 0;
+    top: 0;
+    right: 0;
+    align-items: center;
+    margin: 0 40px;
+    letter-spacing: 14px;
+    justify-content: space-between;
+    color: aliceblue;
+    
+}
+
+
+logo>img{
+    /* font-size: 50px; */
+    height: 40px;
+    width: 80px;
+    font-size: 0;
+    margin-top: 4px;
+    display: block;
+    width: 100%;
+}
+
+.nav .navMenu{
+       align-items: center;
+       display: flex;
+       flex-flow: row nowrap;
+       height: 100%;
+       justify-content: flex-end;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       margin-right: auto;  
+       margin-left: 25px;
+       gap: 1.3rem;
+}
+
+
+.navMenu a{
+         display: flex;
+         
+         text-decoration: none;
+         margin-top: .7rem;
+         align-items: center;
+}
+
+
+.navMenu svg{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 0  5px;
+    z-index: auto;
+}
+
+.navMenu span{
+    letter-spacing: 3px;
+    color: rgb(249,249,249);
+    font-size: 16px;
+    padding: 2px 0px;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+
+
+.login{
+    
+    text-transform: uppercase;
+    padding: 6px 14px;
+    color: aliceblue;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+
+ .login:hover{
+    
+    background: white;
+    color: black;
+    transition: 500ms ease-in-out;
+    
+}
+
+.login span{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } 
